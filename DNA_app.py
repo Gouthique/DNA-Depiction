@@ -56,7 +56,7 @@ if rad == "ABOUT ME":
     - #### Branch:- Department Of _Electronics and Computer Engineering_
     - #### College:- J.B Institute Of Engineering & Technology
     ___
-
+    (c) 2021 by Mani chandana submitted as college mini project.
     """)
 
 
