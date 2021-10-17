@@ -238,11 +238,11 @@ if rad == "THE DNA TEST":
         if ((Vic_A == Sus_A) and (Vic_C == Sus_C) and (Vic_G == Sus_G) and (Vic_T == Sus_T)):
             st.error(
                 "The Evidence DNA Match count perfectly matches to Suspect #1's DNA Count So \n\n ⚠️ SUSPECT #1 IS THE CULPRIT ⚠️")
-            st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/culprit.png")
+            st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/culprit._.png")
         else:
             st.success(
                 "The Evidence DNA Match count doest not matches to Suspect #1's DNA Count So \n\n 😇 SUSPECT #1 IS INNOCENT 😇")
-            st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/innocent.png")
+            st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/innocent._.png")
 
 if rad == "TEST CASES":
     st.write(
