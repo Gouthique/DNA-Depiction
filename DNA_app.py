@@ -36,7 +36,7 @@ if rad == "ABOUT ME":
     - Cytosine - S
     
 
-    ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA_.jpg)
+    ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA.jpg)
     
     - 📌 This app Analyses counts the nucleotide composition of query DNA! 
     - 📌 The important application of this app is in Crime Investigation.
@@ -160,9 +160,6 @@ if rad == "THE DNA TEST":
     sequence2 = sequence2[1:]  # Skips the sequence name (first line)
     sequence2 = ''.join(sequence2)  # Concatenates list to string
 
-    st.write("""
-    ***
-    """)
     st.write("""
     ___
     """)
