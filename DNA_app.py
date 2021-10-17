@@ -36,7 +36,7 @@ if rad == "ABOUT ME":
     - Cytosine - S
     
 
-    ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA.jpg)
+    ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA_.jpg)
     
     - 📌 This app Analyses counts the nucleotide composition of query DNA! 
     - 📌 The important application of this app is in Crime Investigation.
