@@ -43,18 +43,18 @@ if rad == "ABOUT ME":
     ___
     ### Picture shows how DNA test is executed:
     ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA-Test.png)
-    #### 1️⃣ We should clearly observe the matching sequences of the Data.
+    1️⃣ We should clearly observe the matching sequences of the Data.
     
-    #### 2️⃣ The Order of Sequecne is very important.
+    2️⃣ The Order of Sequecne is very important.
     
-    #### 3️⃣ Test results will be based on the order of Matching Sequences.
+    3️⃣ Test results will be based on the order of Matching Sequences.
     
     
-    ## ✨Developed By✨:
-    - ### Name:- V. MANI CHANDANA 
-    - ### Rollno:- 18671A1954 
-    - ### Branch:- Department Of _Electronics and Computer Engineering_
-    - ### College:- J.B Institute Of Engineering & Technology
+    ### ✨Developed By✨:
+    - #### Name:- V. MANI CHANDANA 
+    - #### Rollno:- 18671A1954 
+    - #### Branch:- Department Of _Electronics and Computer Engineering_
+    - #### College:- J.B Institute Of Engineering & Technology
     ___
 
     """)
