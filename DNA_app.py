@@ -43,8 +43,8 @@ if rad == "ABOUT ME":
     ___
     ### Picture shows how DNA test is executed:
     ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA-Test.png)
-    1️⃣ We should clearly observe the matching sequences of the Data. <br/>
-    2️⃣ The Order of Sequecne is very important. <br/>
+    1️⃣ We should clearly observe the matching sequences of the Data. <br>
+    2️⃣ The Order of Sequecne is very important. <br>
     3️⃣ Test results will be based on the order of Matching Sequences.
     
     
