@@ -36,13 +36,13 @@ if rad == "ABOUT ME":
     - Cytosine - S
     
 
-    ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA.jpg)
+    ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA.jpg)
     
     - 📌 This app Analyses counts the nucleotide composition of query DNA! 
     - 📌 The important application of this app is in Crime Investigation.
     ___
     ### Pictue shows how DNA test is executed:
-    ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA-Test.jpeg)
+    ![image](https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA-Test.jpeg)
     
     ## ✨Developed By✨:
     - ### Name:- V. MANI CHANDANA 
@@ -60,7 +60,7 @@ if rad == "ABOUT ME":
 
 if rad == "THE DNA TEST":
     #st.sidebar.header('Enter DNA sequence')
-    st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA-TEST.jpg")
+    st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA-TEST.jpg")
     st.header('Enter The Evidence DNA sequence')
 
     sequence_input = ">DNA Query 2\nGAACACGTGGAGGCAAACAGGAAGGTGAAGAAGAACTTATCCTATCAGGACGGAAGGTCCTGTGCTCGGG\nATCTTCCAGACGTCGCGACTCTAAATTGCCCCCTCTGAGGTCAAGGAACACAAGATGGTTTTGGAAATGC\nTGAACCCGATACATTATAACATCACCAGCATCGTGCCTGAAGCCATGCCTGCTGCCACCATGCCAGTCCT"
