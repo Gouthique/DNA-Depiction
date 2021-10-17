@@ -22,7 +22,7 @@ from streamlit.proto.Markdown_pb2 import Markdown
 st.sidebar.header("WELCOME👋 TO DNA DEPICTION WEB APP")
 
 rad = st.sidebar.radio(
-    "Hii select from⬇️", ["ABOUT ME", "THE DNA TEST", "TEST CASES"])
+    "select from⬇️", ["ABOUT ME", "THE DNA TEST", "TEST CASES"])
 
 if rad == "ABOUT ME":
     st.write("""
@@ -61,7 +61,9 @@ if rad == "ABOUT ME":
 if rad == "THE DNA TEST":
     #st.sidebar.header('Enter DNA sequence')
     #st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA-TEST.jpg")
-    st.header('THE DNA TEST')
+     st.write("""
+    # 🧬THE DNA TEST 
+    """) 
     st.subheader('Enter The Evidence DNA sequence')
 
     sequence_input = ">DNA Query 2\nGAACACGTGGAGGCAAACAGGAAGGTGAAGAAGAACTTATCCTATCAGGACGGAAGGTCCTGTGCTCGGG\nATCTTCCAGACGTCGCGACTCTAAATTGCCCCCTCTGAGGTCAAGGAACACAAGATGGTTTTGGAAATGC\nTGAACCCGATACATTATAACATCACCAGCATCGTGCCTGAAGCCATGCCTGCTGCCACCATGCCAGTCCT"
@@ -78,11 +80,11 @@ if rad == "THE DNA TEST":
     """)
 
     # Prints the input DNA sequence
-    st.header('INPUT (Evidence DNA Query)')
+    st.subheader('INPUT (Evidence DNA Query)')
     sequence
 
     # DNA nucleotide count
-    st.header('OUTPUT (DNA Nucleotide Count)')
+    st.subheader('OUTPUT (DNA Nucleotide Count)')
 
     # 1. Print dictionary
     st.subheader('1. Print dictionary')
@@ -148,7 +150,7 @@ if rad == "THE DNA TEST":
     # _______________________________________________________________________________________________
     # _______________________________________________________________________________________________
     st.write("""___""")
-    st.header('Enter The Suspect DNA sequence')
+    st.subheader('Enter The Suspect DNA sequence')
 
     sequence_input_SUS = ">DNA Query 2\nGAACACGTGGAGGCAAACAGGAAGGTGAAGAAGAACTTATCCTATCAGGACGGAAGGTCCTGTGCTCGGG\nATCTTCCAGACGTCGCGACTCTAAATTGCCCCCTCTGAGGTCAAGGAACACAAGATGGTTTTGGAAATGC\nTGAACCCGATACATTATAACATCACCAGCATCGTGCCTGAAGCCATGCCTGCTGCCACCATGCCAGTCCT"
     #sequence = st.sidebar.text_area("Sequence input", sequence_input, height=250)
@@ -165,11 +167,11 @@ if rad == "THE DNA TEST":
     ___
     """)
     # Prints the input DNA sequence
-    st.header('INPUT (Suspect #1 DNA Query)')
+    st.subheader('INPUT (Suspect #1 DNA Query)')
     sequence2
 
     # DNA nucleotide count
-    st.header('OUTPUT (DNA Nucleotide Count)')
+    st.subheader('OUTPUT (DNA Nucleotide Count)')
 
     # 1. Print dictionary
     st.subheader('1. Print dictionary')
@@ -238,11 +240,11 @@ if rad == "THE DNA TEST":
             progress.progress(i+1)
         if ((Vic_A == Sus_A) and (Vic_C == Sus_C) and (Vic_G == Sus_G) and (Vic_T == Sus_T)):
             st.error(
-                "The Evidence DNA Match count perfectly matches to Suspect #1's DNA Count So \n\n ⚠️ SUSPECT #1 IS THE CULPRIT ⚠️")
+                "The Evidence DNA Match count perfectly matches to Suspect #1's DNA Count!")
             st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/culprit._.png")
         else:
             st.success(
-                "The Evidence DNA Match count doest not matches to Suspect #1's DNA Count So \n\n 😇 SUSPECT #1 IS INNOCENT 😇")
+                "The Evidence DNA Match count doest not matches to Suspect #1's DNA Count!")
             st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/innocent._.png")
 
 if rad == "TEST CASES":
