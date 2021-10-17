@@ -60,8 +60,9 @@ if rad == "ABOUT ME":
 
 if rad == "THE DNA TEST":
     #st.sidebar.header('Enter DNA sequence')
-    st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA-TEST.jpg")
-    st.header('Enter The Evidence DNA sequence')
+    #st.image("https://raw.githubusercontent.com/Gouthique/Data/main/Streamlit/Pictures/DNA_DEPICTION-files/DNA-TEST.jpg")
+    st.header('THE DNA TEST')
+    st.subheader('Enter The Evidence DNA sequence')
 
     sequence_input = ">DNA Query 2\nGAACACGTGGAGGCAAACAGGAAGGTGAAGAAGAACTTATCCTATCAGGACGGAAGGTCCTGTGCTCGGG\nATCTTCCAGACGTCGCGACTCTAAATTGCCCCCTCTGAGGTCAAGGAACACAAGATGGTTTTGGAAATGC\nTGAACCCGATACATTATAACATCACCAGCATCGTGCCTGAAGCCATGCCTGCTGCCACCATGCCAGTCCT"
 
